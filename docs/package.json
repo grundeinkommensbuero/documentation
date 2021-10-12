@@ -1,0 +1,19 @@
+{
+  "name": "documentation",
+  "version": "0.0.1",
+  "description": "A markdown renderer for the technical documentation of our website",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "https://github.com/grundeinkommensbuero/documentation/documentation",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
