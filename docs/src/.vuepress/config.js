@@ -59,7 +59,7 @@ module.exports = {
         },
         {
           title: "Design",
-          collapsable: false,
+          collapsable: true,
           children: ["design"],
         },
       ],
