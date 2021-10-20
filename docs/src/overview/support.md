@@ -1,5 +1,13 @@
 # Infos für den Support
 
+## Allgemeine Tipps:
+
+*:: eingeben für automatische Antworten
+*Unter der Nachricht ist ein kleiner Antworten Button, darauf öffnet sich ein Mail-Feld
+*Aktualisieren klicken zum Senden (kein Senden Button)
+*Textfeld ohne vorher antworten zu klicken ist interner Kommentar
+\*Jutebeutel-Verlosung: Deadline ist abgelaufen, aber ggf. auf Hoodie Verlosung aufmerksam machen
+
 ## Code-Fehler:
 
 In prod-users über Email-Index nach Person suchen
