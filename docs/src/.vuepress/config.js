@@ -62,6 +62,11 @@ module.exports = {
           collapsable: true,
           children: ["design"],
         },
+        {
+          title: "Support",
+          collapsable: false,
+          children: ["support"],
+        },
       ],
     },
   },
