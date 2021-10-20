@@ -50,7 +50,7 @@ module.exports = {
         {
           title: "Frontend",
           collapsable: false,
-          children: ["frontend"],
+          children: ["frontend", "profile"],
         },
         {
           title: "Backend",
