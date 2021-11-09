@@ -6,7 +6,6 @@
 - Unter der Nachricht ist ein kleiner Antworten Button, darauf öffnet sich ein Mail-Feld
 - Aktualisieren klicken zum Senden (kein Senden Button)
 - Textfeld ohne vorher antworten zu klicken ist interner Kommentar
-- Jutebeutel-Verlosung: Deadline ist abgelaufen, aber ggf. auf Hoodie Verlosung aufmerksam machen
 
 ## Bei Code-Fehler:
 
