@@ -4,7 +4,7 @@
 
 ### Überarbeitung der Startseite
 
-[Wireframe] (https://xd.adobe.com/view/ed32a4b9-a8d5-4fab-97d9-e8ca1da2961e-b861/)
+[ Wireframe ] (https://xd.adobe.com/view/ed32a4b9-a8d5-4fab-97d9-e8ca1da2961e-b861/)
 
 /https://xd.adobe.com/view/ed32a4b9-a8d5-4fab-97d9-e8ca1da2961e-b861/
 
