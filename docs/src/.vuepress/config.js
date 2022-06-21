@@ -48,7 +48,7 @@ module.exports = {
     sidebar: {
       "/overview/": [
         {
-          title: "Next.js-Projekt",
+          title: "Next-Projekt",
           collapsable: true,
           children: ["next-new-component"],
         },
