@@ -31,6 +31,6 @@ Wurde größtenteils umgesetzt und seitdem weiterentwickelt:\
 
 ## Creative Cloud
 
-In der Adobe Creative Cloud findet man auch noch mal eine Übersicht aller Dateien:\
+In der Adobe Creative Cloud findet man auch noch mal eine Übersicht aller Dateien:
 
 [Zur Übersicht](https://assets.adobe.com/cloud-documents)
