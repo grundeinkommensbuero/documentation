@@ -48,6 +48,11 @@ module.exports = {
     sidebar: {
       "/overview/": [
         {
+          title: "Next.js-Projekt",
+          collapsable: true,
+          children: ["next-new-component"],
+        },
+        {
           title: "Frontend",
           collapsable: false,
           children: ["frontend", "profile"],
