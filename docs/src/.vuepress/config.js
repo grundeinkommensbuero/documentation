@@ -1,10 +1,10 @@
-const { description } = require("../../package");
+const { description } = require('../../package');
 
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "XBGE documentation",
+  title: 'XBGE documentation',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -16,11 +16,11 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ["meta", { name: "theme-color", content: "#7d69f6" }],
-    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+    ['meta', { name: 'theme-color', content: '#7d69f6' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     [
-      "meta",
-      { name: "apple-mobile-web-app-status-bar-style", content: "black" },
+      'meta',
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
     ],
   ],
 
@@ -30,47 +30,47 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: "",
+    repo: '',
     editLinks: false,
-    docsDir: "",
-    editLinkText: "",
+    docsDir: '',
+    editLinkText: '',
     lastUpdated: true,
     nav: [
       {
-        text: "Overview",
-        link: "/overview/",
+        text: 'Overview',
+        link: '/overview/',
       },
       {
-        text: "Website",
-        link: "https://expedition-grundeinkommen.de",
+        text: 'Website',
+        link: 'https://expedition-grundeinkommen.de',
       },
     ],
     sidebar: {
-      "/overview/": [
+      '/overview/': [
         {
-          title: "Next-Projekt",
+          title: 'Next-Projekt',
           collapsable: true,
-          children: ["next-new-component"],
+          children: ['next-new-component'],
         },
         {
-          title: "Frontend",
+          title: 'Frontend',
           collapsable: false,
-          children: ["frontend", "profile"],
+          children: ['frontend', 'profile'],
         },
         {
-          title: "Backend",
+          title: 'Directus',
           collapsable: false,
-          children: ["backend"],
+          children: ['directus'],
         },
         {
-          title: "Design",
+          title: 'Design',
           collapsable: true,
-          children: ["design"],
+          children: ['design'],
         },
         {
-          title: "Support",
+          title: 'Support',
           collapsable: false,
-          children: ["support"],
+          children: ['support'],
         },
       ],
     },
@@ -79,5 +79,5 @@ module.exports = {
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: ["@vuepress/plugin-back-to-top", "@vuepress/plugin-medium-zoom"],
+  plugins: ['@vuepress/plugin-back-to-top', '@vuepress/plugin-medium-zoom'],
 };
