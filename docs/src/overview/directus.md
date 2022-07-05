@@ -4,26 +4,35 @@
 
 The Schema contains all information about the data models and fields, but not the actual data. The data is in the database and has to be dumped/imported in a separate step.
 
-### When using the DigitalOcean Directus Image, the directus binary is directly available as **directus**, on other sytsmes just use **npx directus**
+When using the DigitalOcean Directus Image, the directus binary is directly available as `directus`, on other sytsmes just use `npx directus`.
 
 ```sh
-# Export schema:
+# On instance ONE - Export schema:
 directus schema snapshot --format json ./directus-schema.json
 
-# Import schema:
+# On another instance - Import schema:
 directus schema apply ./directus-schema.json
 ```
 
 # Database dump PostgresSQL
 
 ```sh
+# To manage the db, login as psql user:
+su postgres && cd ~
+# Start the psql interface
+psql
+
 # On instance ONE - Dump db:
 pg_dump directus > directus.sql
 
 # On another instance - Import db:
-# Go to psql interface:
-su postgres
+
+# To manage the db, login as psql user:
+su postgres && cd ~
+# Start the psql interface
 psql
+
+# Copy the dumped file from the other server (directus.sql)
 
 # Kill all active sessions:
 SELECT
