@@ -14,10 +14,10 @@ directus schema snapshot --format json ./directus-schema.json
 directus schema apply ./directus-schema.json
 ```
 
-# Database dump PostgresSQL
+## Database dump with PostgreSQL
 
 ```sh
-# To manage the db, login as psql user:
+# To manage the db, login as postgres user:
 su postgres && cd ~
 # Start the psql interface
 psql
@@ -26,26 +26,24 @@ psql
 pg_dump directus > directus.sql
 
 # On another instance - Import db:
-
-# To manage the db, login as psql user:
+# To manage the db, login as postgres user:
 su postgres && cd ~
 # Start the psql interface
 psql
 
 # Copy the dumped file from the other server (directus.sql)
 
-# Kill all active sessions:
-SELECT
-	pg_terminate_backend(pg_stat_activity.pid)
-FROM
-	pg_stat_activity
-WHERE
-	pg_stat_activity.datname = 'directus'
-	AND pid <> pg_backend_pid();
+# Kill all active sessions (copy as one command):
+SELECT pg_terminate_backend(pg_stat_activity.pid)
+FROM pg_stat_activity
+WHERE pg_stat_activity.datname = 'directus'
+AND pid <> pg_backend_pid();
 
-# Drop and recreate db:
+# Drop db:
 DROP DATABASE directus;
+# Recreate db:
 CREATE DATABASE directus;
+# Set access rights:
 GRANT ALL PRIVILEGES ON DATABASE directus TO directus;
 
 # Exit psql interface -> \q
