@@ -1,5 +1,11 @@
 # Directus
 
+## Setup a new Directus instance
+
+Setting up Directus with the Digital Ocean "Directus-Image" is pretts straight forward. After the setup just follow the instructions (visible after login on the server) to enable https for the target domain.
+
+Now we just need to add `CORS_ENABLED="true"` to the `/var/directus/.env` env file and reboot the server after that step.
+
 ## Export Schema from Directus
 
 The Schema contains all information about the data models and fields, but not the actual data. The data is in the database and has to be dumped/imported in a separate step.
