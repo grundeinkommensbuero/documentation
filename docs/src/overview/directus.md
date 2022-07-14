@@ -55,4 +55,7 @@ GRANT ALL PRIVILEGES ON DATABASE directus TO directus;
 # Exit psql interface -> \q
 # Import dump
 psql directus < ./directus.sql
+
+# Reboot server (maybe there is a better way)
+reboot
 ```
