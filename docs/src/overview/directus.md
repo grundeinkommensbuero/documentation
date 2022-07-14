@@ -25,8 +25,6 @@ directus schema apply ./directus-schema.json
 ```sh
 # To manage the db, login as postgres user:
 su postgres && cd ~
-# Start the psql interface
-psql
 
 # On instance ONE - Dump db:
 pg_dump directus > directus.sql
@@ -34,10 +32,12 @@ pg_dump directus > directus.sql
 # On another instance - Import db:
 # To manage the db, login as postgres user:
 su postgres && cd ~
-# Start the psql interface
-psql
 
 # Copy the dumped file from the other server (directus.sql)
+# You can use scp for that: https://unix.stackexchange.com/questions/106480/how-to-copy-files-from-one-machine-to-another-using-ssh
+
+# Start the psql interface
+psql
 
 # Kill all active sessions (copy as one command):
 SELECT pg_terminate_backend(pg_stat_activity.pid)
