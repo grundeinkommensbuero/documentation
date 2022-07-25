@@ -18,6 +18,9 @@ directus schema snapshot --format json ./directus-schema.json
 
 # On another instance - Import schema:
 directus schema apply ./directus-schema.json
+
+# Reboot server (maybe there is a better way)
+reboot
 ```
 
 ## Database dump with PostgreSQL
