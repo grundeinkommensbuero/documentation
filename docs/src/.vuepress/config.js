@@ -58,6 +58,16 @@ module.exports = {
           children: ['frontend', 'profile'],
         },
         {
+          title: 'Netlify',
+          collapsable: false,
+          children: ['netlify'],
+         },
+         {
+          title: 'AWS and backend',
+          collapsable: false,
+          children: ['aws'],
+        },
+        {
           title: 'Directus',
           collapsable: false,
           children: ['directus'],
