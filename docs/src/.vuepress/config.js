@@ -77,6 +77,11 @@ module.exports = {
           collapsable: false,
           children: ['directus'],
         },
+          {
+          title: 'Mailjet',
+          collapsable: false,
+          children: ['mailjet'],
+        },
         {
           title: 'Other servies',
           collapsable: false,
