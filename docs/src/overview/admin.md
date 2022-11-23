@@ -1,6 +1,6 @@
 # Admin Panel
 
-We have built an [admin panel](admin.xbge.de) to simplify common administration tasks, such as:
+We have built an [admin panel](https://admin.xbge.de) to simplify common administration tasks, such as:
 - signing people up for newsletters
 - registering signatures
 - searching users
