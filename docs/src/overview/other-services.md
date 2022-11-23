@@ -1,4 +1,4 @@
-# Other external services
+# Matomo and TrackJS
 
 We use [Matomo](https://expeditiongrundeinkommen.matomo.cloud/) for website analytics
 and [TrackJS](https://trackjs.com/) to track and display frontend errors. 
