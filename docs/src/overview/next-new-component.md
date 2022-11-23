@@ -7,10 +7,6 @@
 
   - Felder aus bestehendem Model übernehmen:
   - Id, status, sort, user_created etc. werden automatisch erstellt, gerne ankreuzen
-  - Außerdem nötig:
-    - label -> internes Label
-    - overrideLayout -> '100' | '75' | '50' | '25'
-    - groupElement -> Toggle true oder false
   - Zusätzlich natürlich alle Felder, die man für die Komponente braucht :)
 
 - Im Data Model der Sections Component angeben, dass das neue Section Element dort eingebunden werden kann
