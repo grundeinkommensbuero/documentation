@@ -67,10 +67,20 @@ module.exports = {
           collapsable: false,
           children: ['aws'],
         },
+         {
+          title: 'Admin Panel',
+          collapsable: false,
+          children: ['admin'],
+        },
         {
           title: 'Directus',
           collapsable: false,
           children: ['directus'],
+        },
+        {
+          title: 'Other servies',
+          collapsable: false,
+          children: ['other-services'],
         },
         {
           title: 'Design',
