@@ -63,9 +63,9 @@ module.exports = {
           children: ['netlify'],
          },
          {
-          title: 'AWS and backend',
+          title: 'AWS, servers and backend',
           collapsable: false,
-          children: ['aws'],
+          children: ['aws','app-server'],
         },
          {
           title: 'Admin Panel',
@@ -83,7 +83,7 @@ module.exports = {
           children: ['mailjet'],
         },
         {
-          title: 'Other servies',
+          title: 'Other services',
           collapsable: false,
           children: ['other-services'],
         },
