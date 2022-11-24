@@ -1,5 +1,7 @@
 # Directus
 
+We use Directus as our CMS (https://directus.io/). Currently, we host two directus instances: https://directus.volksentscheid-grundeinkommen.de/ and https://directus.expedition-grundeinkommen.de/admin/login.
+
 ## Setup a new Directus instance
 
 Setting up Directus with the Digital Ocean "Directus-Image" is pretts straight forward. After the setup just follow the instructions (visible after login on the server) to enable https for the target domain.
