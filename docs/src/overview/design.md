@@ -1,17 +1,19 @@
 # UX / UI
 
+# Links to wireframes and mockup files
+
 The following links are a collection of wireframes and mockups created for the Expedition between 2020 and 2022. For questions, contact Tatiana. For Figma and Adobe login information please see 1password. Please note that we've been using the free tier of Figma so far, but will need to update to the paid version as soon as we need more files.
 
 ## Figma Links (2022)
 
 ## XBGE Design Master
 
-This document contains the design done by Schauschau for the XBGE website. It was converted from the original Sketch file, which you can find on Google Drive. It also contains the style guide and some images that can be used in designs.\
+This document contains the design done by 'Schauschau' for the XBGE website. It was converted from the original Sketch file, which you can find on Google Drive. It also contains the style guide and some images that can be used in designs.\
 [Figma Document](https://www.figma.com/file/VYETC5lO8rre75Y1zw6nyj/Schauschau_Website-Design_210209?node-id=0%3A1&t=cMEXWDZb4d1ySJCx-1)
 
 ## XBGE Website Master
 
-On page 1, this document contains the styles for the Berlin homepage, including all the emojis and some design variations that were never used.\
+On page 1, this document contains the styles for the Berlin homepage (done by 'Auf sie mit Gebrüll'), including all the emojis and some design variations that were never used.\
 On page 2, it contains the designs for the XBGE main homepage that build on the structure wireframes linked further down.\
 On page 3, it contains design for the 'Sign at Home' journey (see next file).\
 [Figma Document](https://www.figma.com/file/XzGAl86FcYpNsYSDy4zn2l/XBGE-Website-2022?node-id=0%3A1&t=SLUrLRmLr8PGAVU4-1)
