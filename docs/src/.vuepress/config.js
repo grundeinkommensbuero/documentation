@@ -1,10 +1,10 @@
-const { description } = require('../../package');
+const { description } = require("../../package");
 
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'XBGE documentation',
+  title: "XBGE documentation",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -16,11 +16,11 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#7d69f6' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ["meta", { name: "theme-color", content: "#7d69f6" }],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [
-      'meta',
-      { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
+      "meta",
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" },
     ],
   ],
 
@@ -30,72 +30,77 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    repo: "",
     editLinks: false,
-    docsDir: '',
-    editLinkText: '',
+    docsDir: "",
+    editLinkText: "",
     lastUpdated: true,
     nav: [
       {
-        text: 'Overview',
-        link: '/overview/',
+        text: "Overview",
+        link: "/overview/",
       },
       {
-        text: 'Website',
-        link: 'https://expedition-grundeinkommen.de',
+        text: "Website",
+        link: "https://expedition-grundeinkommen.de",
       },
     ],
     sidebar: {
-      '/overview/': [
+      "/overview/": [
         {
-          title: 'Next-Projekt',
+          title: "General Information",
           collapsable: true,
-          children: ['next-new-component'],
+          children: ["info"],
         },
         {
-          title: 'Frontend',
+          title: "AWS, servers and backend",
           collapsable: false,
-          children: ['frontend', 'profile'],
+          children: ["aws", "app-server"],
         },
         {
-          title: 'Netlify',
+          title: "Frontend",
           collapsable: false,
-          children: ['netlify'],
-         },
-         {
-          title: 'AWS, servers and backend',
-          collapsable: false,
-          children: ['aws','app-server'],
-        },
-         {
-          title: 'Admin Panel',
-          collapsable: false,
-          children: ['admin'],
+          children: ["frontend", "profile"],
         },
         {
-          title: 'Directus',
-          collapsable: false,
-          children: ['directus'],
-        },
-          {
-          title: 'Mailjet',
-          collapsable: false,
-          children: ['mailjet'],
-        },
-        {
-          title: 'Other services',
-          collapsable: false,
-          children: ['other-services'],
-        },
-        {
-          title: 'Design',
+          title: "New Next Component",
           collapsable: true,
-          children: ['design'],
+          children: ["next-new-component"],
         },
         {
-          title: 'Support',
+          title: "Directus",
           collapsable: false,
-          children: ['support'],
+          children: ["directus"],
+        },
+        {
+          title: "UI/UX",
+          collapsable: false,
+          children: ["design"],
+        },
+        {
+          title: "Netlify",
+          collapsable: false,
+          children: ["netlify"],
+        },
+        {
+          title: "Admin Panel",
+          collapsable: false,
+          children: ["admin"],
+        },
+        {
+          title: "Mailjet",
+          collapsable: false,
+          children: ["mailjet"],
+        },
+        {
+          title: "Other services",
+          collapsable: false,
+          children: ["other-services"],
+        },
+        {
+          title: "Support (DE)",
+          collapsable: false,
+          children: ["support"],
         },
       ],
     },
@@ -104,5 +109,5 @@ module.exports = {
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: ['@vuepress/plugin-back-to-top', '@vuepress/plugin-medium-zoom'],
+  plugins: ["@vuepress/plugin-back-to-top", "@vuepress/plugin-medium-zoom"],
 };

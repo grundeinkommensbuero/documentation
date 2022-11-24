@@ -1,5 +1,11 @@
 # UX / UI
 
+To Do:
+
+- user journey explanation
+- user interviews
+- website numbers
+
 # Links to wireframes and mockup files
 
 The following links are a collection of wireframes and mockups created for the Expedition between 2020 and 2022. For questions, contact Tatiana. For Figma and Adobe login information please see 1password. Please note that we've been using the free tier of Figma so far, but will need to update to the paid version as soon as we need more files.
