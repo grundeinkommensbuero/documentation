@@ -1,6 +1,6 @@
 # Directus
 
-We use Directus as our CMS ([https://directus.io/]). Currently, we host two directus instances: [https://directus.volksentscheid-grundeinkommen.de/] and [https://directus.expedition-grundeinkommen.de]. You can find login information on 1password.
+We use [Directus](https://directus.io/) as our CMS . Currently, we host two directus instances: [https://directus.volksentscheid-grundeinkommen.de/](https://directus.volksentscheid-grundeinkommen.de/) and [https://directus.expedition-grundeinkommen.de](https://directus.expedition-grundeinkommen.de). You can find login information on 1password.
 
 To switch between these instances in local development you need to modify your .env variables. Set all URLs to your desired directus instance, except `NEXT_PUBLIC_DIRECTUS_ROOT`, which always needs to be set to `https://directus.expedition-grundeinkommen.de/`.
 
