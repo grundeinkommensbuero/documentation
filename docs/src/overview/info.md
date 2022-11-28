@@ -21,6 +21,7 @@ Both websites use the same codebase, but take data from different directus insta
 ## History
 
 The main XBGE website was the first site that was built for the organisation. It used to be written in Gatsby, with Wordpress integration for the blog and with Contentful as a CMS. The contentful space still exists and can be found here: [Contentful Space](https://app.contentful.com/spaces/af08tobnb0cl/entries). The old gatsby repo also still exists: [Gatsby](https://github.com/grundeinkommensbuero/website-gatsby)\
+\
 In 2022, we made the switch to Next.js and changed the CMS to Directus. We also launched the Berlin campaign website. The new website repo can be found here: [Next.js repo](https://github.com/grundeinkommensbuero/website-next)
 
 ## Components
@@ -39,11 +40,24 @@ Basically a section of three images with corresponding texts. Currently in use o
 
 A banner that appears on top of the whole screen. Could be used for announcements, but hasn't been used in a while. There is currently no Directus integration.
 
-### Sign Up / Login
+### Login / Sign Up
+
+We use a passwordless login system. When a user enters their email address they receive a code via email. Entering the code signs them in.\
+There are several different ways for users to sign up and / or login:
+
+- On the XBGE website, clicking "Mitmachen" will take a user to the Onboarding flow (see below)
+- Entering an email adress to the Newsletter signup will trigger a Sign Up / Login. The idea behind this was to elegantly combine a newsletter opt in with an account creation.
+- When downloading a list, a Sign Up / Login is triggered in the same way (see "List Download")
 
 ### Onboarding
 
+The Onboarding flow in its current state was created during the preparation for the "Kommunale Kampagne" (see below). The idea behind it was to find out which city or town a user lives in, guide them through a series of steps (profile picture upload, donation CTA) and redirect them to their hometown's corresponding subpage.\
+The Onboarding flow is still used like this on the XBGE website. On the Berlin website, a modified version is used that only shows the first step.
+
 ### Municipality pages ("Gemeindeseiten")
+
+In 2020/2021 we worked on preparing what whe called the "Kommunale Kampagne". Citizens from cities and towns ("municipalities") all over Germany could sign up for their hometown and show their support. If enough people signed up for their municipality, it would qualify for the start of its own signature collection campaign. Every municipality needed its own subpage with information about how many people had signed up, and eventually, how many signatures had been collected already.\
+So we needed a way to create thousands of subpages, so each municipality could be represented.
 
 ### Campaign Visualisation ("Unterschriften-Balken")
 
