@@ -1,22 +1,22 @@
-# Neues Section Element anlegen
+# How to add a new section element
 
 ## In Directus
 
-- Einstellungen > Data Model
-- Neues Data Model anlegen:
+- Settings > Data Model
+- Create new Data Model:
 
-  - Felder aus bestehendem Model übernehmen:
-  - Id, status, sort, user_created etc. werden automatisch erstellt, gerne ankreuzen
-  - Zusätzlich natürlich alle Felder, die man für die Komponente braucht :)
+  - Duplicate fields from an existing Model:
+  - Id, status, sort, user_created etc. will be created automatically, tick the boxes
+  - Create all additional fields that you need for your element
 
-- Im Data Model der Sections Component angeben, dass das neue Section Element dort eingebunden werden kann
-- In den Permissions (Public) sicherstellen, dass für alle neu erstellten Elemente der Lesezugriff gegeben ist
-- Entsprechenden Content erstellen
+- Go to the Data Model for the Sections Component. There, you need to change the settings so that your new Section Element can be added to a Section Component.
+- Go to Permissions (Public) and make sure, that read permissions are allowed for all newly created elements
+- Create your content
 
-## Im Code
+## In the code:
 
-- React-Komponente anlegen
-- Noch zu definierende Magic passiert in getPageProps.ts (utils)
-- Die Komponente In der Sections-Komponente einbinden:
-  - Typing: Ganz oben "export type SectionsX = SectionElementBase &"
-  - Dann in der Komponente selbst ins Switch-Statement einbinden (analog zu den anderen)
+- Create a react component
+- TBD: Do some magic in "getPageProps.ts" (utils)
+- Include your component in the Sections Component:
+  - Typing: At the top: "export type SectionsX = SectionElementBase &"
+  - Include the component in the Switch statement, where all the others are

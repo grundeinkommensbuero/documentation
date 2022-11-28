@@ -49,7 +49,7 @@ module.exports = {
       "/overview/": [
         {
           title: "General Information",
-          collapsable: true,
+          collapsable: false,
           children: ["info"],
         },
         {
