@@ -61,7 +61,21 @@ So we needed a way to create thousands of subpages, so each municipality could b
 
 ### Campaign Visualisation ("Unterschriften-Balken")
 
+During an ongoing signature collection, we have the option of showing the number of collected signatures visually as a progress bar. The data for this is taken from the backend, but can be modified in the CMS. One (or several!) progress bars can be displayed on the website via Directus by using the corresponding campaign code. This component works hand in hand with the Signature Scan (see below).
+
 ### List Download
+
+Users have to option of downloading the signature list as a PDF. To do this, they are prompted to enter their email adress so that an account gets created and they get added to the mailing list (see "Login / Sign Up" above). However, they also have the possibility of downloading a list anonymously.\
+The downloaded lists will contain a generated barcode. This barcode is created once a day and stays the same for one day. This barcode is used for the Signature Scan (see below).\
+The idea behind daily barcode generation was to track at what times during a campaign the most lists were downloaded and arrived at the office. However, in the future it might be more helpful to assign barcodes to individual users.
+
+### Sign at Home User Journey
+
+Downloading a list is the first step of the Sign at Home Journey, where users are prompted to print out their list at home, sign it, send it to the office via mail and then digitally add their signatures to the progress bar. Users are guided through this steps one by one, with a series of automated emails being triggered to remind them of each step. See UI/UX for more information on this.
+
+### Signature Scan (Admin-Panel)
+
+Anyone with access to the Admin Panel can scan the barcodes on the signatures using a barcode scanner. For each list / barcode, the user needs to enter the number of signatures on the list, and the numbers will be added together in the backend and be displayed on the Campaign Visualisation. This way, the website always shows the most up to date collection progress.
 
 ### Signature Self Scan
 
