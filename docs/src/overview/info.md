@@ -57,7 +57,7 @@ The Onboarding flow is still used like this on the XBGE website. On the Berlin w
 ### Municipality pages ("Gemeindeseiten")
 
 In 2020/2021 we worked on preparing what whe called the "Kommunale Kampagne". Citizens from cities and towns ("municipalities") all over Germany could sign up for their hometown and show their support. If enough people signed up for their municipality, it would qualify for the start of its own signature collection campaign. Every municipality needed its own subpage with information about how many people had signed up, and eventually, how many signatures had been collected already.\
-So we needed a way to create thousands of subpages, so each municipality could be represented.
+So we needed a way to create thousands of subpages, so each municipality could be represented. These pages in comparison to pages defined in our cms are rendered server side.
 
 ### Campaign Visualisation ("Unterschriften-Balken")
 
