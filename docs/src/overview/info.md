@@ -94,7 +94,11 @@ This component can be displayed via Directus.
 
 ### Profile Tile
 
+A component that was used during the "Kommunale Kampagne". Logged in users on the start page would see a tile that would greet them and show a button to easily access their municipality and profile pages. On the municipality page, the tile changed to give some additional information about their sign up status.
+
 ### Group Feature
+
+Another component we used during the "Kommunale Kampagne" is the Group Feature, where personalized suggestions for messenger groups are shown to users, depending on which municipality they signed up for.
 
 ### Donation feature
 
