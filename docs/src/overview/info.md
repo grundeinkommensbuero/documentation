@@ -89,7 +89,7 @@ Upon Sign Up, users also get their own profile area, where they can access diffe
 ### Package Pledge
 
 One big aspect of campaign planning is trying to estimate in advance if the required number of signatures can be met. In an attempt to find this out, we have created pledges in the past, where users could commit themselves to collecting a certain amount of signatures. Once enough people pledge to collect signatures, a campaign can be started with much more confidence.\
-The first time we used a pledge it was a simple form, which unfortunately did not generate a lot of responses. So in an attempt to make it more interactive, we created the package pledge, where signature are represented by cute packages.\
+The first time we used a pledge it was a simple form, which unfortunately did not generate a lot of responses. So in an attempt to make it more interactive, we created the package pledge, where signatures are represented by cute packages.\
 This component can be displayed via Directus.
 
 ### Profile Tile
