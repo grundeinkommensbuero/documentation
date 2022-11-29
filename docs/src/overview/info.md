@@ -65,7 +65,7 @@ During an ongoing signature collection, we have the option of showing the number
 
 ### List Download
 
-Users have to option of downloading the signature list as a PDF. To do this, they are prompted to enter their email adress so that an account gets created and they get added to the mailing list (see "Login / Sign Up" above). However, they also have the possibility of downloading a list anonymously.\
+Users have the option of downloading the signature list as a PDF. To do this, they are prompted to enter their email adress so that an account gets created and they get added to the mailing list (see "Login / Sign Up" above). However, they also have the possibility of downloading a list anonymously.\
 The downloaded lists will contain a generated barcode. This barcode is created once a day and stays the same for one day. This barcode is used for the Signature Scan (see below).\
 The idea behind daily barcode generation was to track at what times during a campaign the most lists were downloaded and arrived at the office. However, in the future it might be more helpful to assign barcodes to individual users.
 
