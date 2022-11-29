@@ -79,12 +79,23 @@ Anyone with access to the Admin Panel can scan the barcodes on the signatures us
 
 ### Signature Self Scan
 
-### Donation feature
+Users also have the option of adding signatures to the progress bar at home by using the self scan feature. The signatures get added to the progress bar immediately, to boost motivation.\
+Once the signatures arrive at the office and are scanned using the admin panel, they get verified and an automated email is triggered to notify the user that their lists have made it to the office.
 
 ### Profile
 
+Upon Sign Up, users also get their own profile area, where they can access different features (Signature Scan, Package Pledge) and edit settings like personal information and, donation and newsletter settings. Profiles are private, but there have been ideas about creating public profiles in the future and making it easier to connect with other users who are involved in the same campaign.
+
 ### Package Pledge
+
+One big aspect of campaign planning is trying to estimate in advance if the required number of signatures can be met. In an attempt to find this out, we have created pledges in the past, where users could commit themselves to collecting a certain amount of signatures. Once enough people pledge to collect signatures, a campaign can be started with much more confidence.\
+The first time we used a pledge it was a simple form, which unfortunately did not generate a lot of responses. So in an attempt to make it more interactive, we created the package pledge, where signature are represented by cute packages.\
+This component can be displayed via Directus.
 
 ### Profile Tile
 
 ### Group Feature
+
+### Donation feature
+
+We use a donation form where users can make one time donations or set up recurring donations. Users can change their donation settings on their profile.
