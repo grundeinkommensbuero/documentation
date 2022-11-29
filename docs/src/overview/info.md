@@ -60,7 +60,7 @@ During an ongoing signature collection, we have the option of showing the number
 
 ### List Download
 
-Users have to option of downloading the signature list as a PDF. To do this, they are prompted to enter their email adress so that an account gets created and they get added to the mailing list (see "Login / Sign Up" above). However, they also have the possibility of downloading a list anonymously.\
+Users have the option of downloading the signature list as a PDF. To do this, they are prompted to enter their email adress so that an account gets created and they get added to the mailing list (see "Login / Sign Up" above). However, they also have the possibility of downloading a list anonymously.\
 The downloaded lists will contain a generated barcode. This barcode is created once a day and stays the same for one day. This barcode is used for the Signature Scan (see below).\
 The idea behind daily barcode generation was to track at what times during a campaign the most lists were downloaded and arrived at the office. However, in practice this was not very helpful. In the future, it might be better to one perisistent barcode to every individual user instead of generating a new one everyday.
 
@@ -89,7 +89,7 @@ So we needed a way to create thousands of subpages, so each municipality could b
 ### Package Pledge
 
 One big aspect of campaign planning is trying to estimate in advance if the required number of signatures can be met. In an attempt to find this out, we have created pledges in the past, where users could commit themselves to collecting a certain amount of signatures. Once enough people pledge to collect signatures, a campaign can be started with much more confidence.\
-The first time we used a pledge it was a simple form, which unfortunately did not generate a lot of responses. So in an attempt to make it more interactive, we created the package pledge, where signature are represented by cute packages.\
+The first time we used a pledge it was a simple form, which unfortunately did not generate a lot of responses. So in an attempt to make it more interactive, we created the package pledge, where signatures are represented by cute packages.\
 This component can be displayed via Directus.
 
 ### Profile
