@@ -63,14 +63,14 @@ module.exports = {
           children: ["frontend", "profile"],
         },
         {
-          title: "New Next Component",
-          collapsable: true,
-          children: ["next-new-component"],
-        },
-        {
           title: "Directus",
           collapsable: false,
           children: ["directus"],
+        },
+        {
+          title: "New Next Component",
+          collapsable: false,
+          children: ["next-new-component"],
         },
         {
           title: "UI/UX",

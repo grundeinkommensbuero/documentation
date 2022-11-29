@@ -54,11 +54,6 @@ There are several different ways for users to sign up and / or login:
 The Onboarding flow in its current state was created during the preparation for the "Kommunale Kampagne" (see below). The idea behind it was to find out which city or town a user lives in, guide them through a series of steps (profile picture upload, donation CTA) and redirect them to their hometown's corresponding subpage.\
 The Onboarding flow is still used like this on the XBGE website. On the Berlin website, a modified version is used that only shows the first step.
 
-### Municipality pages ("Gemeindeseiten")
-
-In 2020/2021 we worked on preparing what whe called the "Kommunale Kampagne". Citizens from cities and towns ("municipalities") all over Germany could sign up for their hometown and show their support. If enough people signed up for their municipality, it would qualify for the start of its own signature collection campaign. Every municipality needed its own subpage with information about how many people had signed up, and eventually, how many signatures had been collected already.\
-So we needed a way to create thousands of subpages, so each municipality could be represented. These pages in comparison to pages defined in our cms are rendered server side.
-
 ### Campaign Visualisation ("Unterschriften-Balken")
 
 During an ongoing signature collection, we have the option of showing the number of collected signatures visually as a progress bar. The data for this is taken from the backend, but can be modified in the CMS. One (or several!) progress bars can be displayed on the website via Directus by using the corresponding campaign code. This component works hand in hand with the Signature Scan (see below).
@@ -67,7 +62,7 @@ During an ongoing signature collection, we have the option of showing the number
 
 Users have to option of downloading the signature list as a PDF. To do this, they are prompted to enter their email adress so that an account gets created and they get added to the mailing list (see "Login / Sign Up" above). However, they also have the possibility of downloading a list anonymously.\
 The downloaded lists will contain a generated barcode. This barcode is created once a day and stays the same for one day. This barcode is used for the Signature Scan (see below).\
-The idea behind daily barcode generation was to track at what times during a campaign the most lists were downloaded and arrived at the office. However, in the future it might be more helpful to assign barcodes to individual users.
+The idea behind daily barcode generation was to track at what times during a campaign the most lists were downloaded and arrived at the office. However, in practice this was not very helpful. In the future, it might be better to one perisistent barcode to every individual user instead of generating a new one everyday.
 
 ### Sign at Home User Journey
 
@@ -82,9 +77,14 @@ Anyone with access to the Admin Panel can scan the barcodes on the signatures us
 Users also have the option of adding signatures to the progress bar at home by using the self scan feature. The signatures get added to the progress bar immediately, to boost motivation.\
 Once the signatures arrive at the office and are scanned using the admin panel, they get verified and an automated email is triggered to notify the user that their lists have made it to the office.
 
-### Profile
+### Collection Map ("Sammellandkarte")
 
-Upon Sign Up, users also get their own profile area, where they can access different features (Signature Scan, Package Pledge) and edit settings like personal information and, donation and newsletter settings. Profiles are private, but there have been ideas about creating public profiles in the future and making it easier to connect with other users who are involved in the same campaign.
+This component displays a map with any given coordinates. This map displays locations for collection events, places where people could sign, and storage places for campaign material. It includes an option to add new locations. On the Berlin page, this map works in tandem with the mobile app and uses the same data.
+
+### Municipality pages ("Gemeindeseiten")
+
+In 2020/2021 we worked on preparing what whe called the "Kommunale Kampagne". Citizens from cities and towns ("municipalities") all over Germany could sign up for their hometown and show their support. If enough people signed up for their municipality, it would qualify for the start of its own signature collection campaign. Every municipality needed its own subpage with information about how many people had signed up, and eventually, how many signatures had been collected already.\
+So we needed a way to create thousands of subpages, so each municipality could be represented. These pages in comparison to pages defined in our cms are rendered server side.
 
 ### Package Pledge
 
@@ -92,13 +92,25 @@ One big aspect of campaign planning is trying to estimate in advance if the requ
 The first time we used a pledge it was a simple form, which unfortunately did not generate a lot of responses. So in an attempt to make it more interactive, we created the package pledge, where signature are represented by cute packages.\
 This component can be displayed via Directus.
 
+### Profile
+
+Upon Sign Up, users also get their own profile area, where they can access different features (Signature Scan, Package Pledge) and edit settings like personal information and, donation and newsletter settings. Profiles are private, but there have been ideas about creating public profiles in the future and making it easier to connect with other users who are involved in the same campaign.
+
 ### Profile Tile
 
-A component that was used during the "Kommunale Kampagne". Logged in users on the start page would see a tile that would greet them and show a button to easily access their municipality and profile pages. On the municipality page, the tile changed to give some additional information about their sign up status.
+A component that was used during the "Kommunale Kampagne". Logged in users on the start page would see a tile that would greet them and show a button to easily access their municipality and profile pages. On the municipality page, the tile changed to give some additional information about their sign up status. It wasn't transported to the Next.js version.
 
 ### Group Feature
 
 Another component we used during the "Kommunale Kampagne" is the Group Feature, where personalized suggestions for messenger groups are shown to users, depending on which municipality they signed up for.
+
+### Sharing feature
+
+We also created a feature for the "Kommunale Kampagne" where users could generate an individual image with their name and municipality, which could easily be shared over social media. Currently, this feature is used in the onboarding flow and on the municipality pages.
+
+### Leaderboard
+
+This feature existed in the Gatsby version and was never transported to the Next.js version. It included a map which visualised all the signups for all the different municipalities as well as a "high score board" showing the number of signups for different municipalities.
 
 ### Donation feature
 
