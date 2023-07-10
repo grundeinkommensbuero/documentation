@@ -16,7 +16,9 @@
 ## In the code:
 
 - Create a react component
-- TBD: Do some magic in "getPageProps.ts" (utils)
+- TBD: Do some magic in "getPageProps.ts", similar to the other elements:
+  - https://github.com/grundeinkommensbuero/website-next/blob/main/utils/getPageProps.ts
 - Include your component in the Sections Component:
+  - https://github.com/grundeinkommensbuero/website-next/blob/main/components/Section/index.tsx
   - Typing: At the top: "export type SectionsX = SectionElementBase &"
   - Include the component in the Switch statement, where all the others are
