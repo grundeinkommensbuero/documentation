@@ -55,7 +55,7 @@ module.exports = {
         {
           title: "AWS, servers and backend",
           collapsable: false,
-          children: ["aws", "app-server"],
+          children: ["aws", "app-server", "dev-environment"],
         },
         {
           title: "Frontend",
